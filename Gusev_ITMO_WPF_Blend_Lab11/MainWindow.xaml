@@ -1,0 +1,35 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Class="Gusev_ITMO_WPF_Blend_Lab11.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+
+    </Window.Resources>
+    <Grid Margin="198.716,138,292.924,26">
+        <Path Data="M214,292 C214,292 192.50059,275.5 200.5,228.5 204.53125,204.81467 230.49979,167 220.99991,138" Fill="#FFFDFFFD" HorizontalAlignment="Left" Height="155" Stretch="Fill" Stroke="#FF18A61E" VerticalAlignment="Top" Width="25.36" Style="{DynamicResource StebelStyle}" StrokeThickness="5"/>
+        <Ellipse Height="30" Margin="4,-27,-9.64,152" Stroke="#FFC39B12" RenderTransformOrigin="0.365,0.902" IsEnabled="False" Width="31" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Ellipse.Fill>
+                <RadialGradientBrush Center="24.5,6.3" GradientOrigin="21.5,9.2" MappingMode="Absolute" RadiusY="14.5" RadiusX="15">
+                    <GradientStop Color="#FFD6D3C6" Offset="0.099"/>
+                    <GradientStop Color="#FFE4BC0A" Offset="0.836"/>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Path Data="M-42.471656,74.281403 C-82.715662,81.998978 -74.215663,61.999925 -91.715663,55.499925" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="21.527" Margin="-41.445,51.979,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="50.244"/>
+        <Path Data="M-90.611839,55.646113 C-76.465714,59.625434 -79.827865,58.684694 -66.101834,58.374716 -60.590405,58.25025 -53.3403,67.375725 -53.3403,67.375725 -53.3403,67.375725 -50.965265,71.000908 -41.840134,74.126074" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="19.479" Margin="-41.445,51.979,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="49.771" RenderTransformOrigin="-0.802,2.277"/>
+        <Path Data="M-42.471656,74.281403 C-82.715662,81.998978 -74.215663,61.999925 -91.715663,55.499925" Fill="#FF5FE658" HorizontalAlignment="Left" Height="21.527" Margin="-41.445,51.979,0,0" Stretch="Fill" Stroke="#FF1A8F24" VerticalAlignment="Top" Width="50.244"/>
+        <Path Data="M-90.611839,55.646113 C-76.465714,59.625434 -79.827865,58.684694 -66.101834,58.374716 -60.590405,58.25025 -53.3403,67.375725 -53.3403,67.375725 -53.3403,67.375725 -50.965265,71.000908 -41.840134,74.126074" Fill="#FF45F53D" HorizontalAlignment="Left" Height="19.479" Margin="-41.445,51.979,0,0" Stretch="Fill" Stroke="#FF1A8F24" VerticalAlignment="Top" Width="49.771" RenderTransformOrigin="-0.802,2.277"/>
+        <Path Data="M35.617811,-6.8339145 C72.117811,16.166086 78.117428,6.4997683 78.117428,6.4997683 78.117428,6.4997683 77.617761,0.83299409 73.034572,-1.8338175 69.121153,-4.1109114 38.034462,-12.834039 38.034462,-12.834039" Fill="#FFD82C73" HorizontalAlignment="Left" Height="22.349" Margin="32.575,-10.124,-50.715,0" Stretch="Fill" Stroke="#FFEE0ABA" VerticalAlignment="Top" Width="43.5"/>
+        <Path Data="M33.200667,-25.5 C61.367333,-56.333333 61.292432,-63.610364 67.200335,-58.083333 70.408146,-55.082324 67.595988,-42.395322 35.450344,-22.833376" Fill="#FFD82C73" HorizontalAlignment="Left" Height="37.945" Margin="29.868,-58.028,-40.525,0" Stretch="Fill" Stroke="#FFEE0ABA" VerticalAlignment="Top" Width="36.017"/>
+        <Path Data="M23.597825,-27.124585 L38.163076,-63.998545 C38.163076,-63.998545 42.362558,-71.09939 45.64357,-69.432016 48.988474,-67.732174 46.906021,-59.934791 46.906021,-59.934791 L28.006501,-25.293636" Fill="#FFD82C73" HorizontalAlignment="Left" Height="45.393" Margin="23.597,-69.687,-23.18,0" Stretch="Fill" Stroke="#FFEE0ABA" VerticalAlignment="Top" Width="24.943"/>
+        <Path Data="M26.221998,0.93758044 C37.7223,20.520588 29.013872,6.583484 43.597115,28.521038 54.075401,44.283509 61.364261,34.664097 54.117746,25.523266 51.956549,22.797109 30.221525,-1.6874313 30.221525,-1.6874313" Fill="#FFD82C73" HorizontalAlignment="Left" Height="39.603" Margin="26.659,-1.875,-33.112,0" Stretch="Fill" Stroke="#FFEE0ABA" VerticalAlignment="Top" Width="31.813"/>
+        <Path Data="M34.034,-18 C78.158975,-36.875069 66.783336,-32.457599 73.659108,-34.74998 81.53383,-37.375411 87.560659,-25.642225 77.68566,-23.76726 67.810661,-21.892296 34.659006,-14.000076 34.659006,-14.000076" Fill="#FFD82C73" HorizontalAlignment="Left" Height="22.131" Margin="34.034,-35.381,-58.468,0" Stretch="Fill" Stroke="#FFEE0ABA" VerticalAlignment="Top" Width="49.794"/>
+        <Path Data="M18.284,-27.5 C18.034,-32.5 16.816387,-61.217038 18.283973,-66.499906 20.367526,-74.00007 24.409161,-73.999875 24.409161,-73.999875 24.409161,-73.999875 26.846074,-74.624659 27.783684,-69.499765 30.476026,-54.783665 21.533779,-27.5 21.533779,-27.5" Fill="#FFD82C73" HorizontalAlignment="Left" Height="47.524" Margin="17.573,-74.024,-3.929,0" Stretch="Fill" Stroke="#FFEE0ABA" VerticalAlignment="Top" Width="11.716"/>
+        <Path Data="M13.284,-26.166667 L2.617114,-50.665788 C2.617114,-50.665788 -6.949799,-68.103944 3.4102002,-70.740466 12.577018,-73.073335 16.82714,-26.949573 16.82714,-26.949573" Fill="#FFD82C73" HorizontalAlignment="Left" Height="45.66" Margin="-1.409,-70.827,0,0" Stretch="Fill" Stroke="#FFEE0ABA" VerticalAlignment="Top" Width="19.235"/>
+        <Path Data="M8.1173333,-22 C-17.549333,-52 -23.087009,-57.819115 -18.132422,-62.000006 -12.79954,-66.500119 6.0328983,-34.958393 11.616493,-24.874979" Fill="#FFD82C73" HorizontalAlignment="Left" Height="41.437" Margin="-20.361,-62.687,0,0" Stretch="Fill" Stroke="#FFEE0ABA" VerticalAlignment="Top" Width="32.395"/>
+        <Path Data="M5.034,-15.416667 C-39.132667,-31.916667 -41.397078,-40.27601 -38.466219,-44.122951 -34.466633,-49.372663 -16.986607,-38.190956 7.1385139,-20.316703" Fill="#FFD82C73" HorizontalAlignment="Left" Height="31.009" Margin="-39.997,-46.093,0,0" Stretch="Fill" Stroke="#FFEE0ABA" VerticalAlignment="Top" Width="47.468"/>
+        <Path Data="M4.5339852,-7.9377569 C4.5339852,-7.9377569 -23.814057,-5.2812659 -36.466749,-3.6874786 -44.904098,-2.6246739 -47.028939,-6.9376971 -47.028939,-6.9376971 -47.028939,-6.9376971 -48.216515,-13.687797 -36.966504,-13.437803 -25.716492,-13.187808 4.1589905,-12.500262 4.1589905,-12.500262" Fill="#FFD82C73" HorizontalAlignment="Left" Height="10.925" Margin="-47.064,-13.444,0,0" Stretch="Fill" Stroke="#FFEE0ABA" VerticalAlignment="Top" Width="52.598"/>
+        <Path Data="M7.7423136,-6.8750454 C-1.5913203,-1.3750666 -25.216716,20.12485 -18.92429,25.791918 -13.646883,30.544843 -4.1397677,19.156453 -2.9663535,17.750216 12.783712,-1.1249006 7.3881405,3.7085613 12.117042,-2.2499259" Fill="#FFD82C73" HorizontalAlignment="Left" Height="34.819" Margin="-21.6,-5,0,0" Stretch="Fill" Stroke="#FFEE0ABA" VerticalAlignment="Top" Width="33.092"/>
+    </Grid>
+</Window>
